@@ -1,0 +1,15 @@
+@model _3.BonusChallenge.BonusModel
+
+@{
+    ViewBag.Title = "Simple List Anagrams";
+}
+<div class="card">
+    <h2>Simple List Anagrams</h2>
+
+    @foreach (var group in Model.AnagramGroups)
+{
+    <p>
+        @string.Join(", ", group)
+    </p>
+}
+</div>

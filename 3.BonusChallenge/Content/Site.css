@@ -1,13 +1,73 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    font-family: "arial";
-    color: #00000f;
-    background-color: #fffffe;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #333;
+    background-color: #1f2636;
+    margin: 0;
+    font-size: 24px;
+    padding: 25px;
+    text-align: center;
 }
 
-.body-content {
-    padding-left: 10px;
-    padding-right: 10px;
+.navbar {
+    background-color: #ff4900;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    border-radius: 15px;
 }
 
+    .navbar ul {
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-weight: 700;
+        font-size: 42px;
+    }
+
+        .navbar a:hover {
+            color: #1f2636;
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+
+img.home-image {
+    margin-top:25px;
+    width: 75%;
+    height: auto;
+}
+
+.card {
+    background-color: #1f2636;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    cursor: pointer;
+    color: #ff4900;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+    p:hover {
+        transform: scale(1.05);
+        color: white;
+    }

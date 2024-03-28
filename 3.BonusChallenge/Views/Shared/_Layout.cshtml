@@ -4,9 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Sockeye Consulting</title>
+    <link href="~/Content/site.css" rel="stylesheet" type="text/css" />
     @Styles.Render("~/Content/css")
 </head>
 <body>
+    <div class="navbar">
+        <ul>
+            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+            <li>@Html.ActionLink("Simple List", "SimpleList", "Home")</li>
+            <li>@Html.ActionLink("Harder List", "HarderList", "Home")</li>
+        </ul>
+    </div>
     <div>
         @RenderBody()
     </div>

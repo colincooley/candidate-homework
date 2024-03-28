@@ -1,6 +1,6 @@
 ﻿using System.Web.Optimization;
 
-namespace _3.BonusChallenge_1
+namespace _3.BonusChallenge
 {
     public class BundleConfig
     {
